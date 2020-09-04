@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+>>>>>>> edcdc777ad4f56b1151ccc61307448995616e62c
 
 * {
     margin: 0;
@@ -11,7 +15,11 @@
     --fg: #141414;
     --cardbg: #EEE;
     --buttonbg: #cacaca;
+<<<<<<< HEAD
     --accent: green;
+=======
+    --accent: #FFAC33;
+>>>>>>> edcdc777ad4f56b1151ccc61307448995616e62c
 
     --border: 5px;
     --shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
@@ -20,6 +28,7 @@
 body {
     background-color: var(--bg);
     color: var(--fg);
+<<<<<<< HEAD
     font-family: 'Raleway', sans-serif;
 }
 
@@ -29,10 +38,27 @@ body {
     padding: 50px;
 
     background-color: var(--cardbg);
+=======
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    /* border: 1px red solid; */
+    width: 45%;
+    margin: 5% auto;
+    padding: 50px;
+    background-color: var(--cardbg);
+
+>>>>>>> edcdc777ad4f56b1151ccc61307448995616e62c
     border-radius: var(--border);
     box-shadow: var(--shadow);
 }
 
+<<<<<<< HEAD
+=======
+/* 0, 0, 0, 0.35 */
+
+>>>>>>> edcdc777ad4f56b1151ccc61307448995616e62c
 .photo {
     margin: 10px auto;
     width: 250px;
@@ -43,7 +69,11 @@ body {
     box-shadow: var(--shadow);
 }
 
+<<<<<<< HEAD
 .photo img{
+=======
+.photo img {
+>>>>>>> edcdc777ad4f56b1151ccc61307448995616e62c
     width: 100%;
     height: 100%;
 
@@ -72,7 +102,11 @@ body {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .List_item {
+=======
+.list_item {
+>>>>>>> edcdc777ad4f56b1151ccc61307448995616e62c
     list-style: none;
 }
 
@@ -84,7 +118,11 @@ body {
     justify-content: space-evenly;
 }
 
+<<<<<<< HEAD
 .button{
+=======
+.button {
+>>>>>>> edcdc777ad4f56b1151ccc61307448995616e62c
     background-color: var(--buttonbg);
     text-decoration: none;
     color: var(--fg);
@@ -96,8 +134,19 @@ body {
     transition: all .3s ease-out;
 }
 
+<<<<<<< HEAD
 .button:hover{
     background-color: var(--accent);
     box-shadow: 0 7px 7px rgba(0, 0, 0, 0.35);
     transform: translateY(-4px);
+=======
+
+/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35); */
+
+.button:hover {
+    background-color: var(--accent);
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.35);
+    transform: translateY(-4px);
+    cursor: pointer;
+>>>>>>> edcdc777ad4f56b1151ccc61307448995616e62c
 }
